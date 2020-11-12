@@ -1,7 +1,7 @@
 {
   "name": "4-robos-filipe-deschamps",
-  "version": "0.0.1",
-  "description": "\"Projeto open source para fazer videos automatizados\"",
+  "version": "0.0.1-alpha",
+  "description": "\"Projeto open source para publicar videos no youtube de forma automatizada\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rafaelsholanda/4-robos-filipe-deschamps/issues"
   },
-  "homepage": "https://github.com/rafaelsholanda/4-robos-filipe-deschamps#readme"
+  "homepage": "https://github.com/rafaelsholanda/4-robos-filipe-deschamps#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
